@@ -1,0 +1,312 @@
+
+.nav-container{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    
+
+    border-bottom: 1px solid #BEBEBE;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-top: -4px;
+    margin-left: 3px;
+    height: 22px;
+    color: #333333;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22.98px;
+    
+
+    /* border: 1px solid #000000; */
+}
+
+.av-buttons-prod-sec1{
+    margin-top: -7px;
+    margin-left: 164px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+}
+
+.av-buttons-prod-sec2{
+    margin-top: -6px;
+    margin-left: 4px;
+    width: 32px;
+    height: 16px;
+    border: 1px solid #333333;
+    border-radius: 8.5px;
+    transition: 1s;
+}
+.av-buttons-prod-sec2:hover{
+    transform: rotate(-360deg);
+}
+
+.av-buttons-prod-sec3{
+    margin-top: -6px;
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+}
+
+.nav-buttons-container{
+    margin-top: -8px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    width: 750px;
+    margin-left: 237px;
+    display: flex;
+    align-items: center;
+}
+.nav-buttons{
+    margin-left: 60px;
+    transition: 0.3s;
+}
+
+.nav-buttons:hover{
+    text-decoration: underline;
+}
+.nav-buttons-search{
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+    margin-left: 59px;
+}
+
+.nav-exit{
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(-180deg);
+}
+
+.nav-buttons-exit{
+    margin-left: 30px;
+}
+
+@media(max-width: 1440px){
+    
+}
+
+@media(max-width: 768px){
+    .nav-container{
+        margin-top: -7px;
+        width: 768px;
+        height: 44px;
+        background-color: #FFFFFF;
+    
+        border-bottom: 1px solid #BEBEBE;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .nav-logo{
+        
+        margin-left: 5px;
+        height: 22px;
+        color: #333333;
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22.98px;
+        /* border: 1px solid #000000; */
+    }
+    
+    .av-buttons-prod-sec1{
+        margin-top: -3px;
+        margin-left: 37px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #333333;
+        border-radius: 50%;
+    }
+    
+    .av-buttons-prod-sec2{
+        margin-top: -3px;
+        margin-left: 4px;
+        width: 30px;
+        height: 16px;
+        border: 1px solid #333333;
+        border-radius: 8.5px;
+        transition: 1s;
+    }
+    .av-buttons-prod-sec2:hover{
+        transform: rotate(-360deg);
+    }
+    
+    .av-buttons-prod-sec3{
+        margin-top: -3px;
+        margin-left: 5px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #333333;
+        border-radius: 50%;
+    }
+    
+
+    .nav-buttons-block{
+        position: absolute;
+        display: flex;
+        justify-content: start;
+        
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px; */
+        margin-top: 115px;
+        margin-left: -179px;
+        width: 768px;
+        border-bottom: 1px solid #BEBEBE;
+        height: 60px;
+        background-color: #FFFFFF;
+
+        
+    }
+    .nav-buttons-container{
+    
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        width: 0px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-buttons{
+        margin-left: 83px;
+        margin-top: 17px;
+        /* width: 60px; */
+        transition: 0.3s;
+    }
+    
+    .nav-buttons:hover{
+        text-decoration: underline;
+    }
+    .nav-buttons-search{
+        margin-left: 480px;
+    }
+    
+    .nav-exit{
+        transform: rotate(-180deg);
+    }
+    
+    .nav-buttons-exit{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 576px){
+    .nav-container{
+        width: 576px;
+        height: 46px;
+        background-color: #ffffff;
+    
+        border-bottom: 1px solid #BEBEBE;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .nav-logo{
+        margin-left: 6px;
+        height: 22px;
+        color: #333333;
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22.98px;
+        /* border: 1px solid #000000; */
+    }
+    
+    .av-buttons-prod-sec1{
+        margin-left: 32px;
+        width: 17px;
+        height: 17px;
+        border: 1px solid #333333;
+        border-radius: 50%;
+    }
+    
+    .av-buttons-prod-sec2{
+        margin-left: 6px;
+        width: 32px;
+        height: 17px;
+        border: 1px solid #333333;
+        border-radius: 8.5px;
+        transition: 1s;
+    }
+    .av-buttons-prod-sec2:hover{
+        transform: rotate(-360deg);
+    }
+    
+    .av-buttons-prod-sec3{
+        margin-left: 2px;
+        width: 17px;
+        height: 17px;
+        border: 1px solid #333333;
+        border-radius: 50%;
+    }
+    
+
+    .nav-buttons-block{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        gap: 48px;
+        margin-top: 139px;
+        margin-left: 33px;
+        width: 576px;
+        border-bottom: 1px solid #BEBEBE;
+        height: 80px;
+        background-color: #FFFFFF;
+
+        
+    }
+    .nav-buttons-container{
+    
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        /* width: 724px; */
+        margin-left: -200px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-about{
+        margin-right: -40px;
+    }
+    .nav-buttons{
+        margin-left: 35px;
+        margin-top: 28px;
+        /* width: 52px; */
+        transition: 0.3s;
+    }
+    
+    .nav-buttons:hover{
+        text-decoration: underline;
+    }
+    .nav-buttons-search{
+        margin-left: 495px;
+    }
+    
+    .nav-exit{
+        transform: rotate(-180deg);
+    }
+    
+    .nav-buttons-exit{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 320px){
+
+}

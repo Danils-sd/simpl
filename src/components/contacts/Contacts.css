@@ -1,0 +1,230 @@
+.contacts-container{
+    width: 1440px;
+    height: 80px;
+    background-color: #4C5866;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+    padding-left: 161px;
+    padding-right: 163px;
+}
+
+.contacts-logo-container{
+    
+    width: 140px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contacts-logo{
+    margin-left: 4px;
+    height: 22px;
+    color: #ffffff;
+    font-family: Ubuntu;
+    line-height: 22.98px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.c-buttons-prod-sec1{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.c-buttons-prod-sec2{
+    margin-left: 4px;
+    width: 31px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 8.5px;
+    transition: 1s;
+}
+.c-buttons-prod-sec2:hover{
+    transform: rotate(-360deg);
+}
+
+.c-buttons-prod-sec3{
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.contacts-cc-container{
+    width: 186px;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 36px;
+}
+
+.contacts-contact{
+    width: 18px;
+    height: 18px;
+}
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .contacts-container{
+        width: 768px;
+        height: 80px;
+        background-color: #4C5866;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        box-sizing: border-box;
+        padding-left: 38px;
+        padding-right: 36px;
+    }
+    
+    .contacts-logo-container{
+        
+        width: 140px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .contacts-logo{
+        margin-left: 4px;
+        height: 22px;
+        color: #ffffff;
+        font-family: Ubuntu;
+        line-height: 22.98px;
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+    
+    .c-buttons-prod-sec1{
+        width: 16px;
+        height: 16px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    .c-buttons-prod-sec2{
+        margin-left: 5px;
+        width: 30px;
+        height: 16px;
+        border: 1px solid #ffffff;
+        border-radius: 8.5px;
+        transition: 1s;
+    }
+    .c-buttons-prod-sec2:hover{
+        transform: rotate(-360deg);
+    }
+    
+    .c-buttons-prod-sec3{
+        margin-left: 5px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    .contacts-cc-container{
+        width: 186px;
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        gap: 36px;
+    }
+    
+    .contacts-contact{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width: 576px){
+    .contacts-container{
+        width: 576px;
+        height: 80px;
+        background-color: #4C5866;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        box-sizing: border-box;
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    
+    .contacts-logo-container{
+        
+        width: 140px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .contacts-logo{
+        margin-left: 6px;
+        height: 20px;
+        color: #ffffff;
+        font-family: Ubuntu;
+        line-height: 22.98px;
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+    
+    .c-buttons-prod-sec1{
+        width: 17px;
+        height: 17px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    .c-buttons-prod-sec2{
+        margin-left: 6px;
+        width: 32px;
+        height: 17px;
+        border: 1px solid #ffffff;
+        border-radius: 8.5px;
+        transition: 1s;
+    }
+    .c-buttons-prod-sec2:hover{
+        transform: rotate(-360deg);
+    }
+    
+    .c-buttons-prod-sec3{
+        margin-left: 2px;
+        width: 17px;
+        height: 17px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    .contacts-cc-container{
+        width: 186px;
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        gap: 30px;
+    }
+    
+    .contacts-contact{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width: 320px){
+
+}

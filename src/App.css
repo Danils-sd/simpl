@@ -1,0 +1,50 @@
+.App{
+  padding-left: 0px;
+  background-color: #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width: 1440px){
+  .App{
+    width: 1440px;
+    margin-left: -7px;
+  }
+}
+
+@media(max-width: 768px){
+  .App{
+    width: 768px;
+  }
+}
+
+@media(max-width: 576px){
+  .App{
+    width: 576px;
+  }
+}
+
+@media(max-width: 320px){
+  .App{
+    width: 320px;
+  }
+}
+
+
+
+/* @media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+
+}
+
+@media(max-width: 576px){
+
+}
+
+@media(max-width: 320px){
+
+} */

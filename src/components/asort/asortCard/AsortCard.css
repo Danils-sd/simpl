@@ -1,0 +1,259 @@
+.asort-card--container{
+    margin-top: 90px;
+    width: 255px;
+    height: 465px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.asort-card--img{
+    margin-bottom: -9px;
+    width: 255px;
+    height: 180px;
+}
+
+.asort-card--name{
+    margin-bottom: -25px;
+    color: #666666;;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+.asort-card--tir{
+    margin-bottom: -10px;
+    color: #B5B5BD;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.asort-card--disc{
+    color:#85859B;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.6px;
+    margin-bottom: 20px;
+}
+
+.asort-card--button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 129px;
+    height: 23px;
+    border: none;
+    background-color: #FFFFFF;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #7875FE;
+
+    transition: 0.3s;
+}
+
+.asort-card--button-img{
+    width: 23px;
+    height: 20px;
+    transition: 0.3s;
+}
+
+.asort-card--button-img:active{
+    width: 24px;
+    height: 24px;
+}
+
+.asort-card--button:hover{
+    color: #4946B4;
+}
+
+.asort-card--button:active{
+    font-size: 22px;
+    color: #7875FE;
+}
+
+.asort-card--button:focus{
+    background-color: #DAD9FB;
+}
+
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .asort-card--container{
+        margin-top: 56px;
+        width: 330px;
+        height: 434px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .asort-card--img{
+        margin-bottom: -7px;
+        width: 330px;
+        height: 180px;
+    }
+    
+    .asort-card--name{
+        margin-bottom: -25px;
+        color: #666666;;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35.16px;
+    }
+    .asort-card--tir{
+        margin-bottom: -10px;
+        color: #B5B5BD;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.41px;
+    }
+    .asort-card--disc{
+        color:#85859B;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30.6px;
+    }
+    
+    .asort-card--button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 129px;
+        height: 23px;
+        border: none;
+        background-color: #FFFFFF;
+    
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #7875FE;
+    
+        transition: 0.3s;
+    }
+    
+    .asort-card--button-img{
+        width: 23px;
+        height: 20px;
+        transition: 0.3s;
+    }
+    
+    .asort-card--button-img:active{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .asort-card--button:hover{
+        color: #4946B4;
+    }
+    
+    .asort-card--button:active{
+        font-size: 22px;
+        color: #7875FE;
+    }
+    
+    .asort-card--button:focus{
+        background-color: #DAD9FB;
+    }
+}
+
+@media(max-width: 576px){
+    .asort-card--container{
+        margin-top: 60px;
+        width: 240px;
+        height: 434px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .asort-card--img{
+        margin-bottom: -7px;
+        width: 240px;
+        height: 180px;
+    }
+    
+    .asort-card--name{
+        margin-bottom: -25px;
+        color: #666666;;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+    .asort-card--tir{
+        margin-bottom: -10px;
+        color: #B5B5BD;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.41px;
+    }
+    .asort-card--disc{
+        color:#85859B;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27.2px;
+    }
+    
+    .asort-card--button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 129px;
+        height: 23px;
+        border: none;
+        background-color: #FFFFFF;
+    
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #7875FE;
+    
+        transition: 0.3s;
+    }
+    
+    .asort-card--button-img{
+        width: 23px;
+        height: 20px;
+        transition: 0.3s;
+    }
+    
+    .asort-card--button-img:active{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .asort-card--button:hover{
+        color: #4946B4;
+    }
+    
+    .asort-card--button:active{
+        font-size: 22px;
+        color: #7875FE;
+    }
+    
+    .asort-card--button:focus{
+        background-color: #DAD9FB;
+    }
+}
+
+@media(max-width: 320px){
+
+}

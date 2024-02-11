@@ -1,0 +1,241 @@
+.skatch-container{
+    width: 1440px;
+    height: 500px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 165px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skatch-content{
+    margin-top: 89px;
+    width: 350px;
+    height: 272px;
+}
+
+.skatch-content--ab{
+    color:#666666;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: -10px;
+}
+
+.skatch-content--disk{
+    
+    color: #85859B;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.6px;
+}
+
+.skatch-button{
+    margin-top: 11px;
+    width: 255px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border: 1px solid #7875FE;
+    color: #7875FE;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    padding: 20px 50px 20px 50px;
+
+    transition: 0.2s;
+}
+
+.skatch-button:hover{
+    background-color: #7875FE;
+    color: #FFFFFF;
+}
+
+.skatch-button:focus{
+    background-color: #DAD9FB;
+    color: #7875FE;
+}
+
+.skatch-button:active{
+    background-color: #4946B4;
+    color: #FFFFFF;
+    border: 1px solid #4946B4;
+}
+
+.skatch-img{
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 709px;
+    height: 550px;
+
+}
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+
+    .skatch-container{
+        
+        width: 768px;
+        height: 394px;
+        background-color: #FFFFFF;
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .skatch-content{
+        margin-left: -127px;
+        margin-top: 40px;
+        
+        width: 330px;
+        height: 274px;
+    }
+    
+    .skatch-content--ab{
+        color:#666666;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+    
+    .skatch-content--disk{
+        margin-top: 30px;
+        width: 330px;
+        color: #85859B;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30.6px;
+    }
+    
+    .skatch-button{
+        margin-top: 12px;
+        width: 255px;
+        height: 70px;
+        background-color: #FFFFFF;
+        border: 1px solid #7875FE;
+        color: #7875FE;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.44px;
+        padding: 20px 50px 20px 50px;
+    
+        transition: 0.2s;
+    }
+    
+    .skatch-button:hover{
+        background-color: #7875FE;
+        color: #FFFFFF;
+    }
+    
+    .skatch-button:focus{
+        background-color: #DAD9FB;
+        color: #7875FE;
+    }
+    
+    .skatch-button:active{
+        background-color: #4946B4;
+        color: #FFFFFF;
+        border: 1px solid #4946B4;
+    }
+    
+    .skatch-img{
+        margin-left: 31px;
+        margin-top: 56px;
+        width: 450px;
+        height: 349px;
+    
+    }
+}
+
+@media(max-width: 576px){
+    .skatch-container{
+        
+        width: 576px;
+        height: 687px;
+        background-color: #FFFFFF;
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .skatch-content{
+        margin-bottom: 70px;
+        margin-top: 50px;
+        width: 510px;
+        height: 215px;
+    }
+    
+    .skatch-content--ab{
+        color:#666666;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .skatch-content--disk{
+        width: 510px;
+        color: #85859B;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.2px;
+    }
+    
+    .skatch-button{
+        /* margin-top: 10px; */
+        width: 196px;
+        height: 60px;
+        background-color: #FFFFFF;
+        border: 1px solid #7875FE;
+        color: #7875FE;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.44px;
+        padding: 20px 50px 20px 50px;
+    
+        transition: 0.2s;
+    }
+    
+    .skatch-button:hover{
+        background-color: #7875FE;
+        color: #FFFFFF;
+    }
+    
+    .skatch-button:focus{
+        background-color: #DAD9FB;
+        color: #7875FE;
+    }
+    
+    .skatch-button:active{
+        background-color: #4946B4;
+        color: #FFFFFF;
+        border: 1px solid #4946B4;
+    }
+    
+    .skatch-img{
+        margin-bottom: -40px;
+        margin-left: -150px;
+        width: 449px;
+        height: 341px;
+    
+    }
+}
+
+@media(max-width: 320px){
+
+}

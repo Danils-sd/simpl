@@ -1,0 +1,66 @@
+.marks-container{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 315px;
+    
+    padding-left: 165px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 30px;
+    
+}
+
+.mark{
+    margin-top: 90px;
+    width: 255px;
+    height: 135px;
+}
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .marks-container{
+        box-sizing: border-box;
+        width: 690px;
+        height: 200px;
+        
+        margin-left: -330px;
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        gap: 30px;
+        
+    }
+    
+    .mark{
+        margin-top: 60px;
+        width: 150px;
+        height: 80px;
+    }
+}
+
+@media(max-width: 576px){
+    .marks-container{
+        box-sizing: border-box;
+        width: 576px;
+        height: 354px;
+        
+        margin-left: -270px;
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        grid-template-rows: repeat(2, 127px);
+        gap: 20px;        
+    }
+    
+    .mark{
+        margin-top: 40px;
+        width: 240px;
+        height: 127px;
+    }
+}
+
+@media(max-width: 320px){
+
+}
